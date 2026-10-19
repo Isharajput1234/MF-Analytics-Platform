@@ -136,3 +136,10 @@ Source: `04_monthly_sip_inflows.csv`
 - Seven tables have been loaded into SQLite.
 - Additional source datasets have not all been loaded into dedicated database tables.
 - Performance and risk metrics are source-provided unless explicitly recalculated.
+
+### Data Quality Note: SIP Year-over-Year Growth
+
+- The `04_monthly_sip_inflows.csv` dataset contains missing `yoy_growth_pct` values for January–December 2022.
+- The dataset starts in January 2022, so the corresponding months from 2021 are unavailable for calculating year-over-year growth.
+- These missing values are intentionally retained as `NULL` rather than replaced with zero.
+- From January 2023 onward, calculated YoY growth was checked against the source-reported values using SQL, and the displayed results matched.
