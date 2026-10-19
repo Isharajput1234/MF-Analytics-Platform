@@ -109,3 +109,27 @@ SELECT
     yoy_growth_pct
 FROM fact_sip_inflows
 ORDER BY month;
+
+
+-- Q12. Calculate SIP inflow year-over-year growth
+SELECT
+    current.month AS current_month,
+    current.sip_inflow_crore AS current_sip_inflow_crore,
+    previous.sip_inflow_crore AS previous_year_sip_inflow_crore,
+    ROUND(
+        (
+            (current.sip_inflow_crore - previous.sip_inflow_crore)
+            / previous.sip_inflow_crore
+        ) * 100,
+        2
+    ) AS calculated_yoy_growth_pct,
+    current.yoy_growth_pct AS source_yoy_growth_pct
+FROM fact_sip_inflows AS current
+JOIN fact_sip_inflows AS previous
+    ON previous.month = strftime(
+        '%Y-%m',
+        current.month || '-01',
+        '-1 year'
+    )
+WHERE previous.sip_inflow_crore > 0
+ORDER BY current.month;
