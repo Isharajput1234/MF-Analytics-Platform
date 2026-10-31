@@ -1,0 +1,16 @@
+risk_grade,rank,scheme_name,sharpe_ratio,return_3yr_pct
+Moderate,1,HDFC Top 100 Fund - Regular Plan - Growth,1.06,14.84
+Moderate,2,Mirae Asset Large Cap Fund - Regular - Growth,1.06,14.81
+Moderate,3,ICICI Pru Bluechip Fund - Direct - Growth,1.03,14.41
+Very High,1,SBI Small Cap Fund - Regular Plan - Growth,0.94,23.39
+Very High,2,SBI Small Cap Fund - Direct Plan - Growth,0.93,23.14
+Very High,3,ABSL Small Cap Fund - Regular - Growth,0.9,22.38
+Low,1,ICICI Pru Liquid Fund - Regular - Growth,7.68,7.68
+Low,2,Kotak Liquid Fund - Regular - Growth,6.18,6.18
+Low,3,ABSL Liquid Fund - Regular - Growth,5.14,5.14
+High,1,Kotak Emerging Equity Fund - Regular - Growth,0.96,18.23
+High,2,ICICI Pru Midcap Fund - Regular - Growth,0.95,18.08
+High,3,DSP Midcap Fund - Regular - Growth,0.9,17.16
+Moderately High,1,ICICI Pru Value Discovery Fund - Regular - Growth,0.98,14.76
+Moderately High,2,Kotak Flexicap Fund - Regular - Growth,0.98,15.65
+Moderately High,3,UTI Flexi Cap Fund - Regular - Growth,0.96,15.34
