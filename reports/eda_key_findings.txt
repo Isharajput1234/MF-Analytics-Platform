@@ -1,0 +1,12 @@
+EDA - 10 KEY FINDINGS
+
+1. NAV dataset covers 40 schemes from 2022-01-03 to 2026-05-29.
+2. Latest recorded monthly SIP inflow is ₹31,002 crore.
+3. Active SIP accounts range from 4.91 to 9.35 crore.
+4. Industry folios changed from 13.26 to 26.12 crore.
+5. Largest fund house by latest recorded AUM is SBI Mutual Fund.
+6. Largest category by cumulative net inflow is Liquid.
+7. Most frequent investor age group is 26-35.
+8. Highest SIP transaction amount by state is recorded in Madhya Pradesh.
+9. Most common transaction type is SIP.
+10. Highest 3-year return in the performance dataset is SBI Small Cap Fund - Regular Plan - Growth at 23.39%.
