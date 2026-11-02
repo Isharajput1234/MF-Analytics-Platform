@@ -1,0 +1,9 @@
+ADVANCED ANALYTICS - KEY INSIGHTS
+
+1. Historical 95% VaR averages -1.47% across 40 schemes.
+2. Historical 95% CVaR averages -1.86% across the schemes.
+3. 1,361 of 1,362 investors with at least six SIP transactions are flagged at risk (99.93%).
+4. Sector HHI was calculated for 34 Equity schemes using each fund's latest available holdings snapshot.
+5. The rolling Sharpe chart tracks 5 funds selected by full-period Sharpe ratio.
+6. The 2024 investor cohort shows 79.55% activity retention in the following calendar year.
+7. Recommendation counts by bucket: High=3, Low=3, Moderate=3
